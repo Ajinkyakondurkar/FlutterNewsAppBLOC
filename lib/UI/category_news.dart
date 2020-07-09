@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:newsfeedapp/helper/news.dart';
-import 'package:newsfeedapp/model/article_model.dart';
+import 'package:newsfeedapp/BLoC/category_news_bloc.dart';
+import 'package:newsfeedapp/DataLayer/article_model.dart';
 
 import 'article_view.dart';
 
@@ -79,8 +79,8 @@ class _CategoryNewsState extends State<CategoryNews> {
 
   getCategoyNewsData() async{
     CategoryNewsClass news=CategoryNewsClass();
-    await news.getCategoryNews(widget.category);
-    articles=news.newsList;
+    //await news.getCategoryNews(widget.category);
+    //articles=news.newsList;
     setState(() {
       _loading=false;
     });

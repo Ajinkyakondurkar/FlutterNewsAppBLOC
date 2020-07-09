@@ -1,9 +1,10 @@
-import 'package:newsfeedapp/model/category_model.dart';
+
+import 'package:newsfeedapp/DataLayer/category_model.dart';
 
 List<CategoryModel> getCategories(){
 
   List<CategoryModel> categoryList=new List<CategoryModel>();
-  CategoryModel categoryModel;
+  /*CategoryModel categoryModel;
 
   categoryModel=new CategoryModel();
   categoryModel.categoryName="Business";
@@ -44,7 +45,7 @@ List<CategoryModel> getCategories(){
   categoryModel=new CategoryModel();
   categoryModel.categoryName="Technology";
   categoryModel.imageUrl="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80";
-  categoryList.add(categoryModel);
+  categoryList.add(categoryModel);*/
 
   return categoryList;
 }
